@@ -6,11 +6,7 @@
     <description>Recent content in math on 好吃的札记</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy;{year}, All XiaoZhang Reserved</copyright>
-    <lastBuildDate>Sat, 16 Nov 2019 12:00:06 +0900</lastBuildDate>
-    
-	<atom:link href="https://foada.github.io/categories/math/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 16 Nov 2019 12:00:06 +0900</lastBuildDate><atom:link href="https://foada.github.io/categories/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MathJax support</title>
       <link>https://foada.github.io/posts/test-mathjax/</link>

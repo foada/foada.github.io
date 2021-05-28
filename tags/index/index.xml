@@ -5,11 +5,7 @@
     <link>https://foada.github.io/tags/index/</link>
     <description>Recent content in index on 好吃的札记</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy;{year}, All XiaoZhang Reserved</copyright>
-    
-	<atom:link href="https://foada.github.io/tags/index/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy;{year}, All XiaoZhang Reserved</copyright><atom:link href="https://foada.github.io/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
       <link>https://foada.github.io/posts/</link>

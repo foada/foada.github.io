@@ -5,10 +5,6 @@
     <link>https://foada.github.io/series/</link>
     <description>Recent content in Series on 好吃的札记</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy;{year}, All XiaoZhang Reserved</copyright>
-    
-	<atom:link href="https://foada.github.io/series/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy;{year}, All XiaoZhang Reserved</copyright><atom:link href="https://foada.github.io/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
