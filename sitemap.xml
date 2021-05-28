@@ -1,60 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://foada.github.io/showcase/hugo/hugo-theme-zzo/</loc>
-    <lastmod>2020-01-19T21:13:42+09:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/showcase/hugo/hugo-theme-zdoc/</loc>
-    <lastmod>2020-01-19T21:13:42+09:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/</loc>
-    <lastmod>2021-05-28T20:09:15+08:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/posts/foada_cook/</loc>
-    <lastmod>2021-05-28T20:09:15+08:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/posts/</loc>
-    <lastmod>2021-05-28T20:09:15+08:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/tags/</loc>
-    <lastmod>2021-05-28T20:09:15+08:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/tags/xz/</loc>
-    <lastmod>2021-05-28T20:09:15+08:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/posts/hello-xiaozhang/</loc>
-    <lastmod>2021-05-28T15:04:43+08:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/showcase/hugo/</loc>
-    <lastmod>2020-01-19T21:04:11+09:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/showcase/</loc>
-    <lastmod>2020-01-19T15:43:38+09:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/categories/</loc>
-    <lastmod>2019-11-16T12:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/categories/math/</loc>
-    <lastmod>2019-11-16T12:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/posts/test-mathjax/</loc>
-    <lastmod>2019-11-16T12:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/posts/test-katex/</loc>
-    <lastmod>2019-11-15T12:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/gallery/</loc>
-    <lastmod>2019-10-31T10:20:16+09:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/archive/</loc>
-    <lastmod>2019-10-19T11:44:14+09:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/tags/index/</loc>
-  </url><url>
-    <loc>https://foada.github.io/series/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>http://example.org/en/sitemap.xml</loc>
+    
+      <lastmod>2020-03-05T14:08:48+00:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://example.org/ko/sitemap.xml</loc>
+    
+      <lastmod>2019-10-19T11:44:14+09:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>
