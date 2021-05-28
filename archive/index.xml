@@ -6,14 +6,14 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Archive on Hugo Zzo Theme</title>
+    <title>Archive on 好吃的札记</title>
     <link>https://foada.github.io/archive/</link>
-    <description>Recent content in Archive on Hugo Zzo Theme</description>
+    <description>Recent content in Archive on 好吃的札记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
-    <webMaster>zzossig@gmail.com (zzossig)</webMaster>
-    <copyright>©2021, All Rights Reserved</copyright>
+    <managingEditor>xiaozhang@qq.com (foada)</managingEditor>
+    <webMaster>xiaozhang@qq.com (foada)</webMaster>
+    <copyright>©2021, All XiaoZhang Reserved</copyright>
     <lastBuildDate>Sat, 19 Oct 2019 11:44:14 +0900</lastBuildDate>
     
         <atom:link href="https://foada.github.io/archive/index.xml" rel="self" type="application/rss+xml" />
