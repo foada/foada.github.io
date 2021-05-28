@@ -1,105 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" 
-  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
-  xmlns:dc="http://purl.org/dc/elements/1.1/" 
-  xmlns:atom="http://www.w3.org/2005/Atom" 
-  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
-  xmlns:media="http://search.yahoo.com/mrss/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>好吃的札记</title>
     <link>https://foada.github.io/</link>
     <description>Recent content on 好吃的札记</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language>
-    <managingEditor>xiaozhang@qq.com (foada)</managingEditor>
-    <webMaster>xiaozhang@qq.com (foada)</webMaster>
-    <copyright>©2021, All XiaoZhang Reserved</copyright>
-    <lastBuildDate>Fri, 28 May 2021 15:04:43 +0800</lastBuildDate>
+    <copyright>&amp;copy;{year}, All XiaoZhang Reserved</copyright>
+    <lastBuildDate>Thu, 31 Oct 2019 10:20:16 +0900</lastBuildDate>
     
-        <atom:link href="https://foada.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://foada.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo Zzo Theme</title>
+      <link>https://foada.github.io/showcase/hugo/hugo-theme-zzo/</link>
+      <pubDate>Sun, 19 Jan 2020 21:13:42 +0900</pubDate>
       
+      <guid>https://foada.github.io/showcase/hugo/hugo-theme-zzo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo zDoc Theme</title>
+      <link>https://foada.github.io/showcase/hugo/hugo-theme-zdoc/</link>
+      <pubDate>Sun, 19 Jan 2020 21:13:42 +0900</pubDate>
       
+      <guid>https://foada.github.io/showcase/hugo/hugo-theme-zdoc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Foada_cook</title>
+      <link>https://foada.github.io/posts/foada_cook/</link>
+      <pubDate>Fri, 28 May 2021 20:09:15 +0800</pubDate>
       
-        
+      <guid>https://foada.github.io/posts/foada_cook/</guid>
+      <description>hello hahaha</description>
+    </item>
+    
+    <item>
+      <title>Hello Xiaozhang</title>
+      <link>https://foada.github.io/posts/hello-xiaozhang/</link>
+      <pubDate>Fri, 28 May 2021 15:04:43 +0800</pubDate>
       
-        
+      <guid>https://foada.github.io/posts/hello-xiaozhang/</guid>
+      <description>XiaoZhang DAZE! </description>
+    </item>
+    
+    <item>
+      <title>MathJax support</title>
+      <link>https://foada.github.io/posts/test-mathjax/</link>
+      <pubDate>Sat, 16 Nov 2019 12:00:06 +0900</pubDate>
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-
-      
-      <item>
-        <title>Hello Xiaozhang</title>
-        <link>https://foada.github.io/posts/hello-xiaozhang/</link>
-        <pubDate>Fri, 28 May 2021 15:04:43 +0800</pubDate>
-        <author>xiaozhang@qq.com (foada)</author>
-        <atom:modified>Fri, 28 May 2021 15:04:43 +0800</atom:modified>
-        <guid>https://foada.github.io/posts/hello-xiaozhang/</guid>
-        <description>XiaoZhang DAZE! </description>
-        
-        <dc:creator>foada</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>MathJax support</title>
-        <link>https://foada.github.io/posts/test-mathjax/</link>
-        <pubDate>Sat, 16 Nov 2019 12:00:06 +0900</pubDate>
-        <author>xiaozhang@qq.com (foada)</author>
-        <atom:modified>Sat, 16 Nov 2019 12:00:06 +0900</atom:modified>
-        <guid>https://foada.github.io/posts/test-mathjax/</guid>
-        <description>When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
+      <guid>https://foada.github.io/posts/test-mathjax/</guid>
+      <description>When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</description>
-        
-        <dc:creator>foada</dc:creator>
-        <media:content url="https://foada.github.io/images/feature1/infinity.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-          
-        
-        
-          
-            
-              <category>math</category>
-            
-          
-        
-        
-          
-            
-          
-        
-      </item>
+    </item>
+    
+    <item>
+      <title>Katex support</title>
+      <link>https://foada.github.io/posts/test-katex/</link>
+      <pubDate>Fri, 15 Nov 2019 12:00:06 +0900</pubDate>
       
-      <item>
-        <title>Katex support</title>
-        <link>https://foada.github.io/posts/test-katex/</link>
-        <pubDate>Fri, 15 Nov 2019 12:00:06 +0900</pubDate>
-        <author>xiaozhang@qq.com (foada)</author>
-        <atom:modified>Fri, 15 Nov 2019 12:00:06 +0900</atom:modified>
-        <guid>https://foada.github.io/posts/test-katex/</guid>
-        <description>The following
+      <guid>https://foada.github.io/posts/test-katex/</guid>
+      <description>The following
 $$ \int_{a}^{b} x^2 dx $$
 Is an integral
 $$ \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } $$
@@ -107,31 +71,27 @@ Enable Katex in the config file by setting the katex param to true. This will im
 See the online reference of supported TeX functions.
 Note: For inline math to render correctly, your content file extension must be .mmark. See the official mmark site.
 Inline math: $ \varphi = \dfrac{1+\sqrt5}{2}= 1.</description>
-        
-        <dc:creator>foada</dc:creator>
-        <media:content url="https://foada.github.io/images/feature2/mathbook.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-          
-        
-        
-          
-            
-              <category>math</category>
-            
-          
-        
-        
-          
-            
-          
-        
-      </item>
+    </item>
+    
+    <item>
+      <title>Photo</title>
+      <link>https://foada.github.io/gallery/</link>
+      <pubDate>Thu, 31 Oct 2019 10:20:16 +0900</pubDate>
       
-
+      <guid>https://foada.github.io/gallery/</guid>
+      <description>Sample images from Pixabay</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://foada.github.io/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://foada.github.io/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including:
+ https://github.</description>
+    </item>
     
   </channel>
 </rss>
