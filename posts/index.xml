@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Posts on 好吃的札记</title>
+    <title>文章 on 好吃的札记</title>
     <link>https://foada.github.io/posts/</link>
-    <description>Recent content in Posts on 好吃的札记</description>
+    <description>Recent content in 文章 on 好吃的札记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>zhangwq1999@qq.com (Foada)</managingEditor>
