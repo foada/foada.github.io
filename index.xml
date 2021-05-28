@@ -14,7 +14,7 @@
     <managingEditor>zhangwq1999@qq.com (Foada)</managingEditor>
     <webMaster>zhangwq1999@qq.com (Foada)</webMaster>
     <copyright>©2021, All XiaoZhang Reserved</copyright>
-    <lastBuildDate>Fri, 28 May 2021 22:01:33 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2020 14:08:48 +0000</lastBuildDate>
     
         <atom:link href="https://foada.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,30 +40,6 @@
         
       
 
-      
-      <item>
-        <title>Hahahha</title>
-        <link>https://foada.github.io/posts/hahahha/</link>
-        <pubDate>Fri, 28 May 2021 22:01:33 +0800</pubDate>
-        <author>zhangwq1999@qq.com (Foada)</author>
-        <atom:modified>Fri, 28 May 2021 22:01:33 +0800</atom:modified>
-        <guid>https://foada.github.io/posts/hahahha/</guid>
-        <description>小张的第一篇文章 没啥好写的</description>
-        
-        <dc:creator>Kim</dc:creator>
-        
-        
-        
-        
-          
-            
-              <category>first</category>
-            
-          
-        
-        
-        
-      </item>
       
       <item>
         <title>Shortcodes</title>
