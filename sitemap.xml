@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://foada.github.io/showcase/hugo/hugo-theme-zzo/</loc>
+    <loc>https://foada.github.io/showcase/hugo/foada/</loc>
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url><url>
-    <loc>https://foada.github.io/showcase/hugo/hugo-theme-zdoc/</loc>
+    <loc>https://foada.github.io/showcase/hugo/izayoi/</loc>
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url><url>
     <loc>https://foada.github.io/</loc>
@@ -55,15 +55,6 @@
   </url><url>
     <loc>https://foada.github.io/posts/%E9%A1%B5%E9%9D%A2%E6%B8%B2%E6%9F%93-cookbook/</loc>
     <lastmod>2019-12-18T10:33:41+09:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/gallery/cartoon/</loc>
-    <lastmod>2019-10-31T10:20:16+09:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/gallery/</loc>
-    <lastmod>2019-10-31T10:20:16+09:00</lastmod>
-  </url><url>
-    <loc>https://foada.github.io/gallery/photo/</loc>
-    <lastmod>2019-10-31T10:20:16+09:00</lastmod>
   </url><url>
     <loc>https://foada.github.io/presentation/dir/fourth/</loc>
     <lastmod>2019-10-30T20:48:10+09:00</lastmod>
