@@ -13,7 +13,7 @@
     <language>zh</language>
     <managingEditor>zhangwq1999@qq.com (Foada)</managingEditor>
     <webMaster>zhangwq1999@qq.com (Foada)</webMaster>
-    <copyright>©2021, All XiaoZhang Reserved</copyright>
+    <copyright>©2021, All <a target='_blank' rel='external noopener' href='https://github.com/foada'>Foada</a> Reserved</copyright>
     <lastBuildDate>Fri, 28 May 2021 22:34:37 +0800</lastBuildDate>
     
         <atom:link href="https://foada.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -45,24 +45,6 @@
         <author>zhangwq1999@qq.com (Foada)</author>
         
         <guid>https://foada.github.io/tags/hugo/</guid>
-        <description></description>
-        
-        <dc:creator>Foada</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>index</title>
-        <link>https://foada.github.io/tags/index/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        <author>zhangwq1999@qq.com (Foada)</author>
-        
-        <guid>https://foada.github.io/tags/index/</guid>
         <description></description>
         
         <dc:creator>Foada</dc:creator>
