@@ -1717,7 +1717,7 @@
             
             
 
-<main class="single__main main-main">
+<main class="single__main main">
   
     <nav class="breadcrumb hide" aria-label="breadcrumbs">
   <script>document.querySelector('.breadcrumb').classList.remove('hide')</script>
@@ -1785,31 +1785,6 @@
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-<div class="expand">
-  <button type="button" class="expand__button" aria-label="Expand Button">
-    <span class="expand-icon expand-icon__right">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
-    </span>
-    目录
-  </button>
-  <div class="expand__content expand__content--toc">
-    <nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#文献咨询常用网址">文献咨询常用网址</a></li>
-        <li><a href="#编程常用网站">编程常用网站</a></li>
-        <li><a href="#金融数据常用网站">金融数据常用网站</a></li>
-        <li><a href="#大学生竞赛学习常用网站">大学生竞赛学习常用网站</a></li>
-        <li><a href="#近期笔记">近期笔记</a></li>
-        <li><a href="#实习网址">实习网址</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-  </div>
-</div>
-
       <h3 id="文献咨询常用网址">文献咨询常用网址</h3>
 <p><a href="http://www.cnki.net/">中国知网</a><br />
 <a href="http://www.stats.gov.cn/tjsj/ndsj/">国家统计局&raquo;中国统计年鉴</a><br />
@@ -2574,49 +2549,12 @@ document.addEventListener('DOMContentLoaded', function () {
 </main>
 
 
-<aside class="single__side main-side">
-  
-
-
-<section class="sidebar hide">
-  <script>document.querySelector('.sidebar').classList.remove('hide')</script>
-  <div class="toc__flexbox" data-position="fixed">
-    <h6 class="toc__title" data-ani="true">目录</h6>
-    
-      <label class="switch" data-ani="true">
-        <input id="toggle-toc" aria-label="Toggle TOC" type="checkbox" checked>
-        <span class="slider round"></span>
-      </label>
-    
-  </div>
-  <div class="toc " data-dir="ltr" data-folding="false" data-ani="true">
-    <nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#文献咨询常用网址">文献咨询常用网址</a></li>
-        <li><a href="#编程常用网站">编程常用网站</a></li>
-        <li><a href="#金融数据常用网站">金融数据常用网站</a></li>
-        <li><a href="#大学生竞赛学习常用网站">大学生竞赛学习常用网站</a></li>
-        <li><a href="#近期笔记">近期笔记</a></li>
-        <li><a href="#实习网址">实习网址</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-  </div>
-</section>
-
-
-
-</aside>
-
 <script>
   
   
   
 
-  var enableToc = JSON.parse("true");
+  var enableToc = JSON.parse("false");
   var toc = JSON.parse("null");
   var tocPosition = JSON.parse("\"inner\"");
   
@@ -2767,7 +2705,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     
     
-    var enableToc = JSON.parse("true");
+    var enableToc = JSON.parse("false");
     var toc = JSON.parse("null");
     var hideToc = JSON.parse("false");
     var tocFlexbox = document.querySelector('.toc__flexbox');
