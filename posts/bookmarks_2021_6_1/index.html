@@ -2549,12 +2549,49 @@ document.addEventListener('DOMContentLoaded', function () {
 </main>
 
 
+<aside class="single__side main-side">
+  
+
+
+<section class="sidebar hide">
+  <script>document.querySelector('.sidebar').classList.remove('hide')</script>
+  <div class="toc__flexbox" data-position="absolute">
+    <h6 class="toc__title" data-ani="true">目录</h6>
+    
+      <label class="switch" data-ani="true">
+        <input id="toggle-toc" aria-label="Toggle TOC" type="checkbox" >
+        <span class="slider round"></span>
+      </label>
+    
+  </div>
+  <div class="toc hide" data-dir="ltr" data-folding="false" data-ani="true">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#文献咨询常用网址">文献咨询常用网址</a></li>
+        <li><a href="#编程常用网站">编程常用网站</a></li>
+        <li><a href="#金融数据常用网站">金融数据常用网站</a></li>
+        <li><a href="#大学生竞赛学习常用网站">大学生竞赛学习常用网站</a></li>
+        <li><a href="#近期笔记">近期笔记</a></li>
+        <li><a href="#实习网址">实习网址</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</section>
+
+
+
+</aside>
+
 <script>
   
   
   
 
-  var enableToc = JSON.parse("false");
+  var enableToc = JSON.parse("true");
   var toc = JSON.parse("null");
   var tocPosition = JSON.parse("\"inner\"");
   
@@ -2705,9 +2742,9 @@ document.addEventListener('DOMContentLoaded', function () {
     
     
     
-    var enableToc = JSON.parse("false");
+    var enableToc = JSON.parse("true");
     var toc = JSON.parse("null");
-    var hideToc = JSON.parse("false");
+    var hideToc = JSON.parse("true");
     var tocFlexbox = document.querySelector('.toc__flexbox');
     var tocFlexboxOuter = document.querySelector('.toc__flexbox--outer');
     var tocFolding = JSON.parse("false");
