@@ -1717,7 +1717,7 @@
             
             
 
-<main class="single__main main">
+<main class="single__main main-main">
   
     <nav class="breadcrumb hide" aria-label="breadcrumbs">
   <script>document.querySelector('.breadcrumb').classList.remove('hide')</script>
@@ -1763,7 +1763,7 @@
 <div class="single__infos">
   <time class="single__info" title="创建日期">📅&nbsp;2021年05月28日 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="阅读时长"> ☕&nbsp;2&nbsp;分钟 </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="阅读时长"> ☕&nbsp;1&nbsp;分钟 </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="作者">💝&nbsp;foada</span>
   
@@ -1806,7 +1806,7 @@
 <a href="https://geek-docs.com/python">Python|极客教程</a><br />
 <a href="http://www.ruanyifeng.com/blog/">阮一峰的网络日志</a><br />
 <a href="https://leetcode-cn.com/">力扣（LeetCode）官网 - 全球极客挚爱的技术成长平台</a><br />
-<a href="https://ww2.mathworks.cn/">MathWorks - MATLAB 和 Simulink的制造者 - MATLAB &amp; Simulink</a><br />
+<a href="https://ww2.mathworks.cn/">MathWorks - MATLAB 和 Simulink的制造者</a><br />
 <a href="http://neuralnetworksanddeeplearning.com/index.html">Neural networks and deep learning</a><br />
 <a href="https://code.visualstudio.com/docs?start=true">Documentation for Visual Studio Code</a><br />
 <a href="https://www.anaconda.com/">Anaconda</a><br />
@@ -1824,13 +1824,15 @@
 <h3 id="大学生竞赛学习常用网站">大学生竞赛学习常用网站</h3>
 <p><a href="http://www.saikr.com/">赛氪-大学生竞赛活动社区</a><br />
 <a href="http://www.mathor.com/">校苑数模</a><br />
-<a href="http://www.100zp.com/">中国研究生招聘网（官方站）-为海内外优秀博士人才提供高校教师招聘,教授,博士后招聘信息！</a><br />
 <a href="http://www.eeban.com/">保研论坛，全国最大保研学子交流社区</a><br />
 <a href="http://www.cmathc.cn/">全国大学生数学竞赛网站</a><br />
 <a href="https://yz.chsi.com.cn/">中国研究生招生信息网</a><br />
 <a href="http://muchong.com/bbs/">小木虫论坛-学术科研互动平台</a></p>
 <h3 id="实习网址">实习网址</h3>
-<p><a href="https://bbs.pku.edu.cn/v2/thread.php?bid=896">实习(Intern)版 - 北大未名BBS</a></p>
+<p><a href="https://bbs.pku.edu.cn/v2/thread.php?bid=896">实习(Intern)版 - 北大未名BBS</a><br />
+<a href="http://www.100zp.com/">中国研究生招聘网-高校教师、博士后招聘</a></p>
+<h3 id="乱七八糟的网址">乱七八糟的网址</h3>
+<p><a href="https://emojixd.com/">emoji大全</a></p>
 
     </article>
     
@@ -2176,6 +2178,13 @@
     
     <div class="grow"></div>
     
+      <a href="https://foada.github.io/posts/%E6%97%A5%E5%B8%B8/" class="pagination-single__right">      
+        <div class="pagination-single__right-title">用以标记时间的日常</div>
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
+        </div>
+      </a>
+    
   
 </nav>
     
@@ -2520,16 +2529,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <section class="sidebar hide">
   <script>document.querySelector('.sidebar').classList.remove('hide')</script>
-  <div class="toc__flexbox" data-position="absolute">
+  <div class="toc__flexbox" data-position="fixed">
     <h6 class="toc__title" data-ani="true">目录</h6>
     
       <label class="switch" data-ani="true">
-        <input id="toggle-toc" aria-label="Toggle TOC" type="checkbox" >
+        <input id="toggle-toc" aria-label="Toggle TOC" type="checkbox" checked>
         <span class="slider round"></span>
       </label>
     
   </div>
-  <div class="toc hide" data-dir="ltr" data-folding="false" data-ani="true">
+  <div class="toc " data-dir="ltr" data-folding="false" data-ani="true">
     <nav id="TableOfContents">
   <ul>
     <li>
@@ -2539,6 +2548,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <li><a href="#金融数据常用网站">金融数据常用网站</a></li>
         <li><a href="#大学生竞赛学习常用网站">大学生竞赛学习常用网站</a></li>
         <li><a href="#实习网址">实习网址</a></li>
+        <li><a href="#乱七八糟的网址">乱七八糟的网址</a></li>
       </ul>
     </li>
   </ul>
@@ -2708,7 +2718,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     var enableToc = JSON.parse("true");
     var toc = JSON.parse("null");
-    var hideToc = JSON.parse("true");
+    var hideToc = JSON.parse("false");
     var tocFlexbox = document.querySelector('.toc__flexbox');
     var tocFlexboxOuter = document.querySelector('.toc__flexbox--outer');
     var tocFolding = JSON.parse("false");
