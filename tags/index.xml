@@ -14,7 +14,7 @@
     <managingEditor>zhangwq1999@qq.com (Foada)</managingEditor>
     <webMaster>zhangwq1999@qq.com (Foada)</webMaster>
     <copyright>©2021, All <a target='_blank' rel='external noopener' href='https://github.com/foada'>Foada</a> Reserved</copyright>
-    <lastBuildDate>Sat, 26 Jun 2021 22:34:37 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jul 2021 16:35:25 +0800</lastBuildDate>
     
         <atom:link href="https://foada.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,10 +23,28 @@
       <item>
         <title>日常</title>
         <link>https://foada.github.io/tags/%E6%97%A5%E5%B8%B8/</link>
-        <pubDate>Sat, 26 Jun 2021 22:34:37 +0800</pubDate>
+        <pubDate>Sun, 04 Jul 2021 16:35:25 +0800</pubDate>
         <author>zhangwq1999@qq.com (Foada)</author>
         
         <guid>https://foada.github.io/tags/%E6%97%A5%E5%B8%B8/</guid>
+        <description></description>
+        
+        <dc:creator>Foada</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>hugo</title>
+        <link>https://foada.github.io/tags/hugo/</link>
+        <pubDate>Fri, 28 May 2021 22:34:37 +0800</pubDate>
+        <author>zhangwq1999@qq.com (Foada)</author>
+        
+        <guid>https://foada.github.io/tags/hugo/</guid>
         <description></description>
         
         <dc:creator>Foada</dc:creator>
@@ -45,24 +63,6 @@
         <author>zhangwq1999@qq.com (Foada)</author>
         
         <guid>https://foada.github.io/tags/testing/</guid>
-        <description></description>
-        
-        <dc:creator>Foada</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>hugo</title>
-        <link>https://foada.github.io/tags/hugo/</link>
-        <pubDate>Wed, 18 Dec 2019 10:33:41 +0900</pubDate>
-        <author>zhangwq1999@qq.com (Foada)</author>
-        
-        <guid>https://foada.github.io/tags/hugo/</guid>
         <description></description>
         
         <dc:creator>Foada</dc:creator>

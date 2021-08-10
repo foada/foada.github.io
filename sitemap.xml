@@ -19,22 +19,32 @@
   
   <url>
     <loc>https://foada.github.io/posts/</loc>
-    <lastmod>2021-06-26T22:34:37+08:00</lastmod>
+    <lastmod>2021-07-04T16:35:25+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://foada.github.io/tags/</loc>
-    <lastmod>2021-06-26T22:34:37+08:00</lastmod>
+    <lastmod>2021-07-04T16:35:25+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://foada.github.io/tags/%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2021-06-26T22:34:37+08:00</lastmod>
+    <lastmod>2021-07-04T16:35:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://foada.github.io/posts/%E8%AE%B0%E5%8D%8E%E6%B3%B0%E5%AE%9E%E4%B9%A0/</loc>
+    <lastmod>2021-07-04T16:35:25+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://foada.github.io/posts/%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2021-06-26T22:34:37+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://foada.github.io/posts/%E7%9B%B8%E6%81%8B/</loc>
+    <lastmod>2021-06-22T15:38:10+08:00</lastmod>
   </url>
   
   <url>
@@ -44,6 +54,11 @@
   
   <url>
     <loc>https://foada.github.io/posts/bookmarks_2021_6_1/</loc>
+    <lastmod>2021-05-28T22:34:37+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://foada.github.io/tags/hugo/</loc>
     <lastmod>2021-05-28T22:34:37+08:00</lastmod>
   </url>
   
@@ -99,11 +114,6 @@
   
   <url>
     <loc>https://foada.github.io/categories/</loc>
-    <lastmod>2019-12-18T10:33:41+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://foada.github.io/tags/hugo/</loc>
     <lastmod>2019-12-18T10:33:41+09:00</lastmod>
   </url>
   
