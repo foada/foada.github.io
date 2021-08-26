@@ -42,6 +42,30 @@
 
       
       <item>
+        <title>记华泰实习</title>
+        <link>https://foada.github.io/posts/%E8%AE%B0%E5%8D%8E%E6%B3%B0%E5%AE%9E%E4%B9%A0/</link>
+        <pubDate>Sun, 04 Jul 2021 16:35:25 +0800</pubDate>
+        <author>zhangwq1999@qq.com (Foada)</author>
+        <atom:modified>Sun, 04 Jul 2021 16:35:25 +0800</atom:modified>
+        <guid>https://foada.github.io/posts/%E8%AE%B0%E5%8D%8E%E6%B3%B0%E5%AE%9E%E4%B9%A0/</guid>
+        <description>6.2-6.11 港股科技研报撰写 参与撰写《南方中证香港科技ETF投资价值分析》，主要负责后半部分，包括：说明港股科技ETF在投资香港科技市场上的优势；分析</description>
+        
+        <dc:creator>foada</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>日常</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
         <title>用以标记时间的日常</title>
         <link>https://foada.github.io/posts/%E6%97%A5%E5%B8%B8/</link>
         <pubDate>Sat, 26 Jun 2021 22:34:37 +0800</pubDate>
@@ -60,24 +84,6 @@
               <category>日常</category>
             
           
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>相恋</title>
-        <link>https://foada.github.io/posts/%E7%9B%B8%E6%81%8B/</link>
-        <pubDate>Tue, 22 Jun 2021 15:38:10 +0800</pubDate>
-        <author>zhangwq1999@qq.com (Foada)</author>
-        <atom:modified>Tue, 22 Jun 2021 15:38:10 +0800</atom:modified>
-        <guid>https://foada.github.io/posts/%E7%9B%B8%E6%81%8B/</guid>
-        <description>滴 答 滴 .timer { font-size: 150%; } .timer b { color: #EF9A9A; } 【 天 时 分 秒 】 function timer() { var start = new Date(2017, 8, 30); var t = new Date() - start; var h = ~~(t / 1000 / 60 / 60 % 24); if (h</description>
-        
-        <dc:creator>Foada</dc:creator>
-        
-        
-        
         
         
         
