@@ -11,9 +11,9 @@
     <description>Recent content in Hugo on 好吃的札记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <managingEditor>zhangwq1999@qq.com (Foada)</managingEditor>
-    <webMaster>zhangwq1999@qq.com (Foada)</webMaster>
-    <copyright>©2021, All <a target='_blank' rel='external noopener' href='https://github.com/foada'>Foada</a> Reserved</copyright>
+    <managingEditor>xiaozhang@qq.com (foada)</managingEditor>
+    <webMaster>xiaozhang@qq.com (foada)</webMaster>
+    <copyright>©2021, All XiaoZhang Reserved</copyright>
     <lastBuildDate>Sun, 19 Jan 2020 21:04:11 +0900</lastBuildDate>
     
         <atom:link href="https://foada.github.io/showcase/hugo/index.xml" rel="self" type="application/rss+xml" />
@@ -21,15 +21,33 @@
 
       
       <item>
-        <title>Zzo theme</title>
-        <link>https://foada.github.io/showcase/hugo/zzo-theme/</link>
+        <title>Hugo Zzo Theme</title>
+        <link>https://foada.github.io/showcase/hugo/hugo-theme-zzo/</link>
         <pubDate>Sun, 19 Jan 2020 21:13:42 +0900</pubDate>
-        <author>zhangwq1999@qq.com (Foada)</author>
+        <author>xiaozhang@qq.com (foada)</author>
         <atom:modified>Sun, 19 Jan 2020 21:13:42 +0900</atom:modified>
-        <guid>https://foada.github.io/showcase/hugo/zzo-theme/</guid>
+        <guid>https://foada.github.io/showcase/hugo/hugo-theme-zzo/</guid>
         <description></description>
         
-        <dc:creator>Foada</dc:creator>
+        <dc:creator>foada</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Hugo zDoc Theme</title>
+        <link>https://foada.github.io/showcase/hugo/hugo-theme-zdoc/</link>
+        <pubDate>Sun, 19 Jan 2020 21:13:42 +0900</pubDate>
+        <author>xiaozhang@qq.com (foada)</author>
+        <atom:modified>Sun, 19 Jan 2020 21:13:42 +0900</atom:modified>
+        <guid>https://foada.github.io/showcase/hugo/hugo-theme-zdoc/</guid>
+        <description></description>
+        
+        <dc:creator>foada</dc:creator>
         
         
         

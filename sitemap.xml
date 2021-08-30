@@ -3,78 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://foada.github.io/showcase/friends/foada/</loc>
+    <loc>https://foada.github.io/showcase/hugo/hugo-theme-zzo/</loc>
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://foada.github.io/showcase/hugo/zzo-theme/</loc>
+    <loc>https://foada.github.io/showcase/hugo/hugo-theme-zdoc/</loc>
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://foada.github.io/showcase/friends/izayoi/</loc>
-    <lastmod>2020-01-19T21:13:42+09:00</lastmod>
+    <loc>https://foada.github.io/posts/hello-xiaozhang/</loc>
+    <lastmod>2021-05-28T15:04:43+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://foada.github.io/posts/</loc>
-    <lastmod>2021-07-04T16:35:25+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://foada.github.io/tags/</loc>
-    <lastmod>2021-07-04T16:35:25+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://foada.github.io/tags/%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2021-07-04T16:35:25+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://foada.github.io/posts/%E8%AE%B0%E5%8D%8E%E6%B3%B0%E5%AE%9E%E4%B9%A0/</loc>
-    <lastmod>2021-07-04T16:35:25+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://foada.github.io/posts/%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2021-06-26T22:34:37+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://foada.github.io/showcase/friends/</loc>
-    <lastmod>2021-05-31T15:51:02+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://foada.github.io/posts/bookmarks_2021_6_1/</loc>
-    <lastmod>2021-05-28T22:34:37+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://foada.github.io/tags/hugo/</loc>
-    <lastmod>2021-05-28T22:34:37+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://foada.github.io/tags/testing/</loc>
-    <lastmod>2021-05-28T22:34:37+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://foada.github.io/posts/alpha/</loc>
-    <lastmod>2021-05-28T22:34:37+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://foada.github.io/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://foada.github.io/about/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-28T15:04:43+08:00</lastmod>
   </url>
   
   <url>
@@ -89,17 +34,27 @@
   
   <url>
     <loc>https://foada.github.io/categories/</loc>
-    <lastmod>2019-12-18T10:33:41+09:00</lastmod>
+    <lastmod>2019-11-16T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://foada.github.io/categories/hugo/</loc>
-    <lastmod>2019-12-18T10:33:41+09:00</lastmod>
+    <loc>https://foada.github.io/categories/math/</loc>
+    <lastmod>2019-11-16T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://foada.github.io/posts/%E9%A1%B5%E9%9D%A2%E6%B8%B2%E6%9F%93-cookbook/</loc>
-    <lastmod>2019-12-18T10:33:41+09:00</lastmod>
+    <loc>https://foada.github.io/posts/test-mathjax/</loc>
+    <lastmod>2019-11-16T12:00:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://foada.github.io/posts/test-katex/</loc>
+    <lastmod>2019-11-15T12:00:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://foada.github.io/</loc>
+    <lastmod>2019-10-31T10:20:16+09:00</lastmod>
   </url>
   
   <url>
@@ -113,12 +68,20 @@
   </url>
   
   <url>
-    <loc>https://foada.github.io/love/</loc>
+    <loc>https://foada.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://foada.github.io/tags/index/</loc>
+  </url>
+  
+  <url>
     <loc>https://foada.github.io/series/</loc>
+  </url>
+  
+  <url>
+    <loc>https://foada.github.io/tags/</loc>
   </url>
   
 </urlset>
