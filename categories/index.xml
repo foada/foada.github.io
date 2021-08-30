@@ -14,11 +14,29 @@
     <managingEditor>zhangwq1999@qq.com (Foada)</managingEditor>
     <webMaster>zhangwq1999@qq.com (Foada)</webMaster>
     <copyright>©2021, All <a target='_blank' rel='external noopener' href='https://github.com/foada'>Foada</a> Reserved</copyright>
-    <lastBuildDate>Wed, 18 Dec 2019 10:33:41 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 26 Jun 2021 22:34:37 +0800</lastBuildDate>
     
         <atom:link href="https://foada.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>折腾</title>
+        <link>https://foada.github.io/categories/%E6%8A%98%E8%85%BE/</link>
+        <pubDate>Sat, 26 Jun 2021 22:34:37 +0800</pubDate>
+        <author>zhangwq1999@qq.com (Foada)</author>
+        
+        <guid>https://foada.github.io/categories/%E6%8A%98%E8%85%BE/</guid>
+        <description></description>
+        
+        <dc:creator>Foada</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>hugo</title>
