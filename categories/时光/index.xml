@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>日常 on 好吃的札记</title>
-    <link>https://foada.github.io/tags/%E6%97%A5%E5%B8%B8/</link>
-    <description>Recent content in 日常 on 好吃的札记</description>
+    <title>时光 on 好吃的札记</title>
+    <link>https://foada.github.io/categories/%E6%97%B6%E5%85%89/</link>
+    <description>Recent content in 时光 on 好吃的札记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>zhangwq1999@qq.com (Foada)</managingEditor>
@@ -16,7 +16,7 @@
     <copyright>©2021, All <a target='_blank' rel='external noopener' href='https://github.com/foada'>Foada</a> Reserved</copyright>
     <lastBuildDate>Sat, 26 Jun 2021 22:34:37 +0800</lastBuildDate>
     
-        <atom:link href="https://foada.github.io/tags/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://foada.github.io/categories/%E6%97%B6%E5%85%89/index.xml" rel="self" type="application/rss+xml" />
     
 
       
