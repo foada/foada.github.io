@@ -1534,7 +1534,7 @@
           </li>
         
           <li class="navbarm__menu--item navbarm__menu--subitem">
-            <a href="/categories/%e8%90%bd%e8%8a%b1">🥀落花</a>
+            <a href="/daily">🌸落花</a>
           </li>
         
           <li class="navbarm__menu--item navbarm__menu--subitem">
@@ -1553,18 +1553,6 @@
       
         <li class="navbarm__menu--item ">
           <a href="/gallery">📷画廊</a>
-        </li>
-      
-      
-    
-      
-      
-      
-      
-
-      
-        <li class="navbarm__menu--item ">
-          <a href="/posts">📜文章</a>
         </li>
       
       
@@ -1677,7 +1665,7 @@
       
       <a href="/categories/%e6%b5%81%e6%b0%b4" class="navbar__dropdown--item" dir="ltr">⏳流水</a>
       
-      <a href="/categories/%e8%90%bd%e8%8a%b1" class="navbar__dropdown--item" dir="ltr">🥀落花</a>
+      <a href="/daily" class="navbar__dropdown--item" dir="ltr">🌸落花</a>
       
       <a href="/categories/%e6%98%a5%e8%89%b2" class="navbar__dropdown--item" dir="ltr">🌿春色</a>
       
@@ -1691,14 +1679,6 @@
   
   
   <a href="/gallery" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">📷画廊</a>
-  
-  
-  
-  
-  
-  
-  
-  <a href="/posts" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">📜文章</a>
   
   
   
@@ -1735,53 +1715,88 @@
 <li>了解杂七杂八的知识&hellip;但却什么都不擅长</li>
 </ul>
 <script>
-!function(e, t, a) {
-    function r() {
-        for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[e].y--, s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x + "px;top:" + s[e].y + "px;opacity:" + s[e].alpha + ";transform:scale(" + s[e].scale + "," + s[e].scale + ") rotate(45deg);background:" + s[e].color + ";z-index:99999");
-        requestAnimationFrame(r)
+(function (root, $) {
+    var piece = function (options) {
+        var defaults = {
+            pid: 'pid_' + (new Date()).getTime().toString().substr(6), // element,  default value is 'pid_ + time'.
+            type: 'type_' + (Math.floor(7 * Math.random()) + 1),
+            track: 'track_' + (Math.floor(7 * Math.random()) + 1)
+        };
+        options = $.extend({}, defaults, options);
+        var tpl = '<div class="piece ' + options.type + ' ' + options.track + '" id="' + options.pid + '"></div>';
+        return {
+            pid: options.pid,
+            type: options.type,
+            track: options.track,
+            html: tpl
+        };
     }
-    function n() {
-        var t = "function" == typeof e.onclick && e.onclick;
-        e.onclick = function(e) {
-            t && t(),
-            o(e)
+    var flowers = function (options) {
+        var defaults = {
+            container: '#flowers', // element,  default value is '#flowers'.
+            genSpeed: 500,
+            speedY: 0.5, // by px
+            speedR: 0.6 // by deg
+        };
+        options = $.extend({}, defaults, options);
+
+        this.$container = $(options.container);
+        this.version = '1.0.1';
+        this.author = 'Nelson Kuang';
+        this.created = '2017/08/21';
+        this.genTimer = null;
+        this.genSpeed = options.genSpeed;
+        this.speedY = options.speedY;
+        this.speedR = options.speedR;
+        this.init();
+    }
+    flowers.prototype = {
+        init: function (){
+            this.$container.html('');
+            if (this.genTimer) {
+                clearInterval(this.genTimer);
+            }
+        },
+        stop: function () {
+            if (this.genTimer) {
+                clearInterval(this.genTimer);
+                this.$container.html('');
+            }
+        },
+        start: function () {
+            var _this = this;
+            _this.addPiece();
+            this.genTimer = setInterval(function () {
+                _this.addPiece();
+            }, _this.genSpeed);
+        },
+        addPiece: function () {
+            var _this = this,
+                _piece = new piece();
+            _this.$container.append(_piece.html);
+            var This = $('#' + _piece.pid),
+                currentTranslatedY = 0,
+                currentRotates = 0,
+                animationID = 0,
+                speedR = _this.speedR * Math.random();
+            function move() {
+                currentTranslatedY += _this.speedY;
+                currentRotates += speedR;
+                This.css('-webkit-transform', 'translate3d(0, ' + currentTranslatedY + 'px, 0) rotate3d(1,1,1,' + currentRotates + 'deg)');
+                animationID = requestAnimationFrame(move);
+                if (currentTranslatedY > 1200) {
+                    if (animationID != 0) {
+                        cancelAnimationFrame(animationID);
+                    }
+                    This.remove();
+                }
+            }
+            move();
         }
     }
-    function o(e) {
-        var a = t.createElement("div");
-        a.className = "heart",
-        s.push({
-            el: a,
-            x: e.clientX - 5,
-            y: e.clientY - 5,
-            scale: 1,
-            alpha: 1,
-            color: c()
-        }),
-        t.body.appendChild(a)
-    }
-    function i(e) {
-        var a = t.createElement("style");
-        a.type = "text/css";
-        try {
-            a.appendChild(t.createTextNode(e))
-        } catch(t) {
-            a.styleSheet.cssText = e
-        }
-        t.getElementsByTagName("head")[0].appendChild(a)
-    }
-    function c() {
-        return "rgb(" + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + ")"
-    }
-    var s = [];
-    e.requestAnimationFrame = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame ||
-    function(e) {
-        setTimeout(e, 1e3 / 60)
-    },
-    i(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"),
-    n(),
-    r()
-} (window, document);
+
+    root.flowers = flowers;
+})(this, jQuery);
 </script><blockquote>
 </blockquote>
 
