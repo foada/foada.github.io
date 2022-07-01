@@ -42,6 +42,40 @@
 
       
       <item>
+        <title>Selective Inference</title>
+        <link>https://foada.github.io/posts/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+        <author>zhangwq1999@qq.com (Foada)</author>
+        <atom:modified>Wed, 01 Jun 2022 00:00:00 +0000</atom:modified>
+        <guid>https://foada.github.io/posts/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/</guid>
+        <description>Problem Graph fused lasso $\hat{\beta}=\operatorname{argmin}{\beta \in \mathbb{R}^{n}}\left{\frac{1}{2}|y-\beta|{2}^{2}+\lambda \sum_{\left(j, j^{\prime}\right) \in E}\left|\beta_{j}-\beta_{j^{\prime}}\right|\right}$ where G = (V, E) is an undirected graph, V = {1, . . . , n}, and (j, j&#39;) ∈ E indicates that the jth andj&#39; th vertices in the graph are connected by an edge. Inference Hyposesis We might then consider testing the null hypothesis that the true mean of β is the same across two estimated</description>
+        
+        <dc:creator>Foada</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>论文</category>
+            
+          
+        
+        
+          
+            
+              <category>学业</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
         <title>用以标记时间的日常</title>
         <link>https://foada.github.io/posts/%E6%97%A5%E5%B8%B8/</link>
         <pubDate>Sat, 26 Jun 2021 22:34:37 +0800</pubDate>
@@ -116,40 +150,6 @@
           
         
         
-        
-      </item>
-      
-      <item>
-        <title>Selective Inference</title>
-        <link>https://foada.github.io/posts/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/</link>
-        <pubDate>Wed, 18 Dec 2019 10:33:41 +0900</pubDate>
-        <author>zhangwq1999@qq.com (Foada)</author>
-        <atom:modified>Wed, 18 Dec 2019 10:33:41 +0900</atom:modified>
-        <guid>https://foada.github.io/posts/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/</guid>
-        <description>Problem Graph fused lasso $\hat{\beta}=\operatorname{argmin}{\beta \in \mathbb{R}^{n}}\left{\frac{1}{2}|y-\beta|{2}^{2}+\lambda \sum_{\left(j, j^{\prime}\right) \in E}\left|\beta_{j}-\beta_{j^{\prime}}\right|\right}$ where G = (V, E) is an undirected graph, V = {1, . . . , n}, and (j, j&#39;) ∈ E indicates that the jth andj&#39; th vertices in the graph are connected by an edge. Inference Hyposesis We might then consider testing the null hypothesis that the true mean of β is the same across two estimated</description>
-        
-        <dc:creator>Foada</dc:creator>
-        
-        
-        
-        
-          
-            
-              <category>论文</category>
-            
-          
-        
-        
-          
-            
-              <category>学业</category>
-            
-          
-        
-        
-          
-            
-          
         
       </item>
       
